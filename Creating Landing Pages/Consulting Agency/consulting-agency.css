@@ -1,0 +1,300 @@
+body {
+    font-size:16px;
+    font-family:sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header {
+    height:600px;
+    background: url("images/Layer-759_02.jpg") no-repeat;
+    background-size:120%;
+    color: #ffffff;;
+    text-align: center;
+}
+
+.header p,h1,button,nav,ul,li,a {
+    margin:0;
+    padding:0;
+}
+
+.header h1{
+    text-transform: uppercase;
+    position: relative;
+    top:90px;
+    font-size:3.1em;
+    font-weight:600;
+    letter-spacing: 3px;
+}
+
+.header p {
+    position: relative;
+    top : 140px;
+    width:400px;
+    font-size:1.5em;
+    margin:0 auto;
+}
+
+.header button {
+    position: relative;
+    top: 160px;
+    text-transform: uppercase;
+    background: #000;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.header button:hover {
+    cursor: pointer;
+    background: rgb(186,146,94);
+    color: #ffffff;
+}
+
+.header nav {
+    background: rgb(186,146,94);
+    position: relative;
+    top:20px;
+    width:80%;
+    line-height: 60px;
+    margin:0 auto;
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin:0 40px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:400;
+    font-family:Arial,sans-serif;
+}
+
+main {
+    margin:5px;
+}
+
+.consulting-industries {
+    width: 92%;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+.consulting-industries header h1 {
+    text-align: center;
+    font-size:2.7em;
+    margin-top: 30px;
+}
+
+.consulting-industries  article {
+    width:350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 40px;
+}
+
+.consulting-industries article h1 {
+    font-size:1.0em;
+}
+
+.consulting-industries article i {
+    background: #000000;
+    color: #ffffff;
+    padding:13px 10px;
+    width: 32px;
+    font-size:1.6em;
+    text-align: center;
+    border-radius: 70px;
+    position: relative;
+    top:34px;
+    left: -75px;
+}
+
+.slogan {
+    background: url("images/steel-bg.jpg");
+    opacity:0.8;
+}
+
+.slogan p {
+    padding: 50px;
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+    color: rgba(186,146,94,1);
+    font-size:1.6em;
+}
+
+.strengths {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/background-choose-us.jpg");
+    background-size: 100%;
+    height: 350px;
+    color:#ffffff;
+}
+
+.strengths .strengths-container {
+    text-align: center;
+    margin-top:80px;
+}
+
+.strengths article {
+    width: 260px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid rgb(186,146,94);
+    padding: 30px;
+    margin:0 20px;
+}
+
+.strengths header h1 {
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-size:2.2em;
+}
+
+.strengths article p {
+    font-size:0.84em;
+    text-align: left;
+}
+
+.strengths article h3 {
+    font-size:1.0em;
+}
+
+.strengths article:hover {
+    background: #ffffff;
+    color:#000000;
+    cursor: pointer;
+}
+
+.founder-thoughts {
+    background: url("images/consulting-woman.jpg") no-repeat;
+    height: 460px;
+    background-size: cover;
+}
+
+.founder-thoughts article {
+    background: rgba(241,237,234,0.8);
+    width:480px;
+    height: 410px;
+    float: right;
+    margin:44px 20px 5px 0;
+}
+
+.founder-thoughts article>p {
+    padding: 30px 40px;
+    font-size:0.84em;
+    font-weight: 700;
+}
+
+.founder-thoughts article>p:before {
+     content: open-quote;
+     font-size:30px;
+     color: rgb(186,146,94);
+ }
+
+.founder-thoughts article>p:after {
+    content: close-quote;
+    font-size:30px;
+    color: rgb(186,146,94);
+}
+
+.ceo {
+    background-color: rgb(8,8,32);
+    width: 80%;
+    height:220px;
+    position: relative;
+    top:-22px;
+    margin:0 auto;
+}
+
+.ceo h1 {
+    color: #ffffff;
+    padding:30px 20px;
+}
+
+.ceo>p {
+    margin:0;
+    padding: 0;
+    color:rgb(104,104,115);
+    position: absolute;
+    bottom:198px;
+    font-size:10px;
+    left:207px;
+}
+
+.partners {
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(8,8,32);
+    color: #ffffff;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+footer>section {
+    display: inline-block;
+    width:250px;
+    vertical-align: top;
+    padding-left:220px;
+}
+
+footer section>header {
+    margin:30px 0 20px 0;
+}
+
+footer section>header>h1 {
+    position: relative;
+    left:-30px;
+}
+
+footer section.consulting ul {
+   list-style-type: none;
+}
+
+footer section.widgets ul li {
+    display: inline-block;
+}
+
+footer section.widgets ul img {
+    height:60px;
+}
+
+footer section.extra-links ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    margin:0 15px 0 15px;
+}
+
+footer section.extra-links ul li {
+    padding-top: 10px;
+}
+
+footer section.extra-links ul li a {
+    color:rgb(186,146,94);
+    text-decoration: none;
+}
+
+.social-icons {
+    padding:0 0 30px 250px;
+    width:300px;
+}
+
+.social-icons i {
+    background: rgb(131,130,140);
+    padding: 15px 18px;
+    margin-right:20px;
+    border-radius: 34px;
+    color:rgb(6,8,33);
+    width:10px;
+}

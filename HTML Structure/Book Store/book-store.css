@@ -1,0 +1,16 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, thead, tbody, tr, th, td {
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+}
+
+thead th {
+    text-align: center;
+}

@@ -1,0 +1,181 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-family:"Open Sans",Arial,sans-serif,"Comforta",sans-serif;
+    font-size:14px;
+    clear: both;
+    margin:0 auto;
+    padding: 0 auto;
+}
+
+aside {
+    float: left;
+    text-align: center;
+    width:250px;
+    background: #FFFFFF;
+    position: absolute;
+    top:0;
+    bottom:0;
+}
+
+aside header h1 {
+    font-size:2.5em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+aside header img {
+    width:100px;
+    border-radius: 120px;
+}
+
+aside ul li a,
+aside h4,
+aside ul li i{
+    text-transform: uppercase;
+    color:#D1D8DC;
+    font-family: sans-serif;
+    font-weight:100;
+}
+
+aside nav ul {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    width:150px;
+}
+
+aside nav ul li i {
+    margin:15px 10px 15px 5px;
+}
+
+aside nav ul li a{
+    text-decoration: none;
+}
+
+aside nav ul li:hover {
+    cursor: pointer;
+}
+
+aside nav ul li:hover > a,
+aside nav ul li:hover > i
+{
+    color: #000000;
+}
+
+main {
+    background: #F3F5F7;
+    margin-left:250px;
+}
+
+main button {
+    position: relative;
+    top:-64px;
+    left:0;
+    text-transform: uppercase;
+    float: right;
+    background: #FF7739;
+    color: #ffffff;
+    padding:10px 20px;
+    border: 3px solid #FF7739;
+    border-radius:20px;
+    margin:0 50px;
+}
+
+main button i {
+    margin-left:10px;
+}
+
+main button:hover {
+    cursor: pointer;
+    background: none;
+    color:#FF7739;
+}
+
+main h1 {
+    margin:0;
+    padding: 30px 40px;
+    font-family:sans-serif;
+    font-weight:100;
+}
+
+main section{
+    margin-left:40px;
+}
+
+main h1 > span {
+    color:#92A5AF;
+}
+
+main header h2 {
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+main header p {
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-weight:100;
+    font-size:0.9em;
+}
+
+section article {
+    display: inline-block;
+    margin:20px 30px 20px 0;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+section article {
+    background: #FFFFFF;
+    width:215px;
+    height:230px;
+}
+
+section article img {
+    width:100%;
+   margin-top:20px;
+}
+
+article div.status {
+    text-transform: uppercase;
+    text-align: center;
+    background: #68BC69;
+    width:50px;
+    color: #ffffff;
+    font-family:sans-serif;
+    font-weight: 100;
+    font-size:0.7em;
+    padding:6px;
+    border-radius:20px;
+    position: relative;
+    top: 60px;
+    left:-17px;
+}
+
+section article:last-child > div.status,
+section:first-of-type > article:first-of-type > div.status
+{
+    background: #91A5AF;
+}
+
+section article:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+section article p {
+    text-transform: capitalize;
+    font-size:0.8em;
+    font-family:sans-serif;
+    font-weight:600;
+    margin:10px 0 10px 10px;
+}
+

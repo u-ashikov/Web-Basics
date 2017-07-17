@@ -1,0 +1,144 @@
+body {
+    font-family:Lato, sans-serif;
+    font-size: 14px;
+    background: url("images/dark-wood.jpg");
+    margin:0 auto;
+    padding: 0 auto;
+}
+
+header {
+    background: url("images/header-page.jpg") no-repeat center center;
+    width:70%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0 auto;
+    text-align: right;
+    padding: 50px 0;
+    font-size:2.5em;
+}
+
+nav {
+    margin:0 auto;
+    width:70%;
+}
+
+nav ul{
+    margin:0 auto;
+    background: url("images/header-page.jpg");
+    padding:6px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav ul li:first-of-type a {
+    color: #000000;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+main {
+    width:70%;
+    float: left;
+    background-color: #FFFFFF;
+    margin:5px 194px;
+    padding-bottom: 100px;
+}
+
+main .courses {
+    width:70%;
+    float: left;
+}
+
+main .courses article {
+    width:100%;
+    float: left;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+main .courses article figure {
+    float: left;
+    border:1px solid rgb(239,239,239);
+    margin:20px 15px;
+}
+
+main .courses article figure img {
+    padding:5px;
+    margin:0 auto;
+}
+
+main .courses article figcaption {
+    padding:4px;
+}
+
+main .courses article p {
+    width:263px;
+    float: left;
+}
+
+.courses article div {
+    padding:30px;
+}
+
+main .courses div h2,h3 {
+    margin:1px 5px;
+    padding:2px;
+}
+
+.courses div h2 {
+    color:rgb(107,107,107)
+}
+
+.courses div h3 {
+    color:rgb(221,198,134);
+}
+
+main aside {
+    width: 20%;
+    float: left;
+    margin:20px 5px;
+    border-left: 1px solid rgb(239,239,239);
+    padding: 10px;
+}
+
+.popular-recipes ul {
+    list-style-type: none;
+}
+
+.popular-recipes h2 {
+    width:18%;
+    color:rgb(222,99,127);
+}
+
+.popular-recipes ul li {
+    padding:10px;
+    border-bottom:1px solid rgb(239,239,239);
+}
+
+.popular-recipes ul li a {
+    text-decoration: none;
+    color:rgb(232,174,203);
+}
+
+footer {
+    float: left;
+    width:100%;
+    text-align: center;
+    background-color: rgb(174,172,168);
+    padding: 5px;
+    color: #ffffff;
+}

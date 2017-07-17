@@ -1,0 +1,76 @@
+div{
+    display: inline-block;
+    margin: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    transition: all 900ms;
+    top: 100px;
+    overflow: hidden;
+}
+.card:hover {
+    z-index: 20;
+}
+
+.front-side {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #234465;
+    z-index: 5;
+    -webkit-transition: 300ms ease-in;
+}
+
+.back-side {
+    width: 200px;
+    height: 200px;
+    background: #ffa000;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+div#slide-up:hover div.front-side {
+    cursor:pointer;
+    top:-200px;
+}
+
+div#slide-up div.front-side {
+    transition: top ease 0.7s;
+}
+
+div#slide-down:hover div.front-side {
+    cursor: pointer;
+    top: 200px;
+}
+
+div#slide-down div.front-side {
+   transition: top ease 0.7s;
+}
+
+div#slide-left:hover div.front-side {
+    cursor: pointer;
+    left:-200px;
+}
+
+div#slide-left div.front-side {
+   transition: left ease 0.7s;
+}
+
+div#slide-right:hover div.front-side {
+    cursor: pointer;
+    left:200px;
+}
+
+div#slide-right div.front-side {
+    transition: left ease 0.7s;
+}

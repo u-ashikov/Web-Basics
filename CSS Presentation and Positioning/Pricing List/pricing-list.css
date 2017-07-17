@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    width: 1000px;
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: "Volkorn",Tahoma,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:#6B7889;
+}
+
+section article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px;
+}
+
+section h1 {
+    color:#8591A0;
+    text-transform: uppercase;
+    font-size:1.8em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+section article {
+    border:1px solid #EBEFF2;
+    width:26%;
+    height: 450px;
+    position: relative;
+}
+
+section article header {
+    background: #EBEFF2;
+    padding: 10px;
+}
+
+section article header h3 {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+section article p {
+    font-size:2.5em;
+    margin:20px;
+}
+
+section article p:first-letter {
+    font-size:1.2em;
+}
+
+section article ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin:0 20px;
+}
+
+section article ul li {
+    font-size:0.8em;
+    padding: 10px;
+    border-bottom: 1px solid #EBEFF2;
+}
+
+section article button {
+   position: absolute;
+    bottom: 20px;
+    left:42px;
+    background-color: #DDDDDD;
+    border:none;
+    border-radius: 8px;
+    padding: 13px;
+    width:180px;
+    text-transform: capitalize;
+    color:#FFFFFF;
+}
+
+section article:hover {
+    cursor: pointer;
+}
+
+section article:hover > header,
+section article:hover > button {
+    background-color:#65D3E2;
+}
+
+section article:hover > p {
+   color:#65D3E2;
+}

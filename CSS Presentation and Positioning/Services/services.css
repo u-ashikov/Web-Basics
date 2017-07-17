@@ -1,0 +1,44 @@
+body {
+    font-family:"OpenSans-ExtraBold",Helvetica,sans-serif;
+    margin:0 auto;
+    padding:0 auto;
+    font-size:16px;
+    background: #F0F0E8;
+    text-align: center;
+    color:#7C808D;
+}
+
+.title {
+    font-size:3.4em;
+    font-weight: 800;
+    color:#009288;
+}
+
+.intro-text {
+    font-weight:800;
+}
+
+section {
+    margin:40px 20px;
+}
+
+article {
+    width:220px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: content-box;
+    vertical-align: top;
+    margin-right:12px;
+    border-left:10px solid transparent;
+}
+
+article p {
+    padding: 14px;
+}
+
+article:hover {
+    cursor: pointer;
+    background: #F6F6F5;
+    border-left:10px solid #009288;
+}
+

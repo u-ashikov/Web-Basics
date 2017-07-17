@@ -1,0 +1,91 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size:16px;
+    color: #888888;
+}
+
+form {
+    background: #F7F7F7;
+    width:600px;
+    margin:50px auto;
+    border: 1px solid #E5E5E5;
+    padding: 0 15px 25px 10px;
+}
+
+form .heading h1,
+form .heading h3 {
+    margin:0;
+}
+
+form .heading {
+    padding:20px 0 5px 50px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+form .heading h3 {
+    font-size:0.9em;
+    margin-bottom:10px;
+}
+
+form .heading h1 {
+    font-size:1.9em;
+}
+
+form label {
+    display: block;
+    margin:20px 10px;
+}
+
+form label div {
+    display: inline-block;
+}
+
+form label .label-fullname,
+ form label .label-email,
+ form label .label-message,
+ form label .label-subject {
+     width:20%;
+     text-align: right;
+ }
+
+form label .form-group input,
+form label .form-group select,
+form label .form-group textarea {
+    width:400px;
+    padding: 8px;
+    outline: 0 none;
+    line-height: 15px;
+    border:1px solid #E3E3E3;
+    margin-left:10px;
+    color:#888;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+form label .form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+form label .label-message {
+    position: relative;
+    top:-75px;
+}
+
+form .button {
+    margin: 20px 0 20px 135px;
+}
+
+form .button input {
+    width:250px;
+    padding: 14px;
+    background: #E27575;
+    color: #ffffff;
+    border: none;
+    font-size:0.9em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #E5E5E5;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,121 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-size:16px;
+    font-family:Tahoma, Helvetica, sans-serif;
+}
+
+form {
+    margin:50px auto;
+    width:1100px;
+}
+
+form div.form-inputs {
+    background: #EEEEEE;
+    padding: 20px 30px;
+}
+
+form nav {
+    background: #384452;
+}
+
+form nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+form nav ul li{
+    display: inline-block;
+    line-height: 79px;
+}
+
+form nav ul li a {
+    color:#8BAEC2;
+    text-decoration: none;
+    padding: 30px 30px 30px 60px;
+}
+
+form nav ul li a:hover {
+    cursor: pointer;
+    background: #3BBC96;
+    color: #FFFFFF;
+}
+
+form nav ul li a.business-search::before {
+    font-family: Fontawesome,sans-serif;
+    content: '\f002';
+    position: absolute;
+    top:50px;
+    left: 205px;
+}
+
+form nav ul li a.business-categories::before {
+    font-family: Fontawesome,sans-serif;
+    content: '\f02b';
+    position: absolute;
+    top:50px;
+    left: 415px;
+}
+
+form nav ul li a.recent-locations::before {
+    font-family: Fontawesome,sans-serif;
+    content: '\f041';
+    position: absolute;
+    top:50px;
+    left: 655px;
+}
+
+form nav ul li a.agents::before {
+    font-family: Fontawesome,sans-serif;
+    content: '\f007';
+    position: absolute;
+    top:50px;
+    left: 868px;
+}
+
+form div.form-inputs label {
+    width:20%;
+    display: inline-block;
+    margin: 20px 20px 30px 20px;
+}
+
+form div.form-inputs label input {
+    padding:15px;
+    outline:0 none;
+    font-size:0.8em;
+    color:#AFB5BF;
+}
+
+form div.form-inputs label input[type="date"] {
+    color:#000;
+}
+
+form div.form-inputs label span {
+    font-weight: 900;
+    display: block;
+    margin-bottom:20px;
+}
+
+form div.button {
+    float: right;
+    position: relative;
+    top:-2px;
+    left:-31px;
+}
+
+form div.button button {
+    text-transform: uppercase;
+    background: #384452;
+    color: #ffffff;
+    border: none;
+    padding: 15px 5px;
+    width:230px;
+    outline: 0 none;
+}
+
+form div.button button:hover {
+    cursor: pointer;
+    background: #3BBC96;
+}
+

@@ -1,0 +1,76 @@
+body {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    width:800px;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+section {
+    margin:80px auto;
+    width:100%;
+    text-align: center;
+}
+
+section>header,
+section>article>button {
+    background: #DDDDDD;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+h3,h1 {
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+section header h1 {
+    text-transform: capitalize;
+    color:#9470DC;
+    font-size:1.4em;
+}
+
+section article {
+    display: inline-block;
+    background: #EEEEEE;
+    border-radius:10px;
+    width:22%;
+    margin: 20px 10px;
+}
+
+section article header {
+    background: #9470DC;
+    border-radius: 100px;
+    padding: 33px;
+    margin:10px;
+}
+
+section article header h3 {
+    color:#FFFFFF;
+    font-size: 2.3em;
+}
+
+section article p {
+    color:#B8B1B9;
+}
+
+section article button {
+    text-transform: capitalize;
+    padding: 10px;
+    width:90%;
+    border:none;
+    margin:10px;
+    color:#898598;
+}
+
+section article>header:hover,
+section article button:hover
+{
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+section article>header:hover>h1 {
+    color: #9470DC;
+}
+

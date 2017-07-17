@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v8/o-91-t7-bPc7W26HmS2N4Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-family: 'Lato',sans-serif;
+    font-size:14px;
+    background: #FAFAFA;
+}
+
+form {
+    width:900px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin:50px auto;
+    padding:0 auto;
+    overflow: hidden;
+}
+
+form div.nike-shoe {
+    width:37%;
+    height: 100%;
+    background: #4DD8C9;
+    background: linear-gradient(180deg,#67F9C9,#4DD8C9);
+    float: left;
+}
+
+form div.nike-shoe img {
+    width:100%;
+    margin:53px -13px;
+    box-sizing: border-box;
+}
+
+form div.form-inputs {
+    margin: 50px 0 40px 30px;
+    float: left;
+}
+
+form .form-inputs span {
+    display: block;
+}
+
+form .form-inputs span.price {
+    font-weight: 900;
+    font-family: Anton,sans-serif;
+    font-size:1.4em;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+form .form-inputs h1 {
+    font-family: Anton,sans-serif;
+    margin:0;
+}
+
+form div.form-inputs label {
+    width:60%;
+}
+
+form div.form-inputs label input,
+form div.form-inputs label select {
+    margin:10px 0 10px 20px;
+    width: 170px;
+    height: 30px;
+    border: none;
+    color:#97CFD3;
+    outline:0 none;
+}
+
+form div.form-inputs label input[type="text"]::-webkit-input-placeholder {
+    color:#97CFD3;
+}
+
+form div.form-inputs label select {
+    background: #4DD8C9;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+form div.form-inputs label input[type="text"] {
+    border-bottom: 3px solid #4DD8C9;
+    padding-left: 7px;
+}
+
+form button {
+    width:44%;
+    margin-top:20px;
+    background: #ffffff;
+    border:2px solid #4DD8C9;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color:#4DD8C9;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: #4DD8C9;
+    color: #ffffff;
+}

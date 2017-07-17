@@ -1,0 +1,80 @@
+body {
+    font-family: Lato, sans-serif;
+    margin:0 auto;
+    padding:0 auto;
+    font-size:14px;
+}
+
+header {
+    background: url("images/header.jpg") no-repeat;
+}
+
+header h1 {
+    margin:0 auto;
+    text-align: center;
+    padding: 80px 80px;
+    color:#FFFFFF;
+}
+
+main {
+    width:100%;
+    margin:10px 0;
+}
+
+.content {
+    width:70%;
+    float: left;
+}
+
+.content article {
+    width:72%;
+    margin:0 auto;
+}
+
+.content article h1 {
+    font-size:1.4em;
+}
+
+.content article img{
+    width:100%;
+}
+
+.content article img+p {
+    font-size:0.9em;
+    margin:0 auto;
+    text-align: justify;
+}
+
+.content article p.date {
+    margin:0 auto;
+}
+
+.content button {
+    background: none;
+    border-radius: 20px;
+    padding: 10px;
+    width:100px;
+    margin:10px 0;
+    border: 1px solid #ec5353;
+    color:#ec5353;
+}
+
+.content button:hover {
+    cursor: pointer;
+    background: #ec5353;
+    color: #ffffff;
+}
+
+aside {
+    float:left;
+    width:26%;
+}
+
+aside img {
+    width:300px;
+    margin:0 auto;
+}
+
+aside p {
+    font-size:0.9em;
+}

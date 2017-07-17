@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-size:22px;
+    font-family: "Open Sans",sans-serif;
+    color: #ffffff;
+    background: #1D211E;
+}
+
+nav {
+    background-color: #E67C1F;
+}
+
+nav ul {
+    text-align: center;
+    line-height: 50px;
+    list-style-type: none;
+    padding:0;
+    background-color: #E67C1F;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:hover {
+    background:#000 ;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.web-design,.tutorials {
+    display: none;
+}
+
+nav ul li a:not(:only-child):after {
+    content: '+';
+}
+
+.web-design li,.tutorials li {
+    display: block;
+}
+
+nav ul li:hover>.web-design {
+    display: block;
+    position: absolute;
+    top:71px;
+    left:492px;
+}
+
+nav ul ul li:hover>.tutorials {
+    display: block;
+    position: absolute;
+    top:101px;
+    left:147px;
+}
+

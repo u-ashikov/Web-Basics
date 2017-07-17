@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-family:Roboto,Helvetica,sans-serif;
+    font-size:16px;
+    color:#1E1917;
+    background: #EEEEEE;
+}
+
+form {
+    margin:40px auto;
+    max-width: 800px;
+}
+
+form .container {
+    padding-left: 50px;
+}
+
+form header {
+    background: #ffffff;
+}
+
+form header h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:20px 50px;
+    font-size:40px;
+    color: #324E5B;
+    border-top:8px solid #324E5B;
+    border-right: 8px solid #324E5B;
+}
+
+form label {
+    width:600px;
+    font-family:Helvetica,sans-serif;
+    margin-top:10px;
+}
+
+form label,
+form label span,
+form label input[type="checkbox"]{
+    display: block;
+}
+
+form label input[type="text"],
+form label input[type="password"],
+form label input[type="email"] {
+    width:100%;
+    height:25px;
+    outline:0 none;
+    border: none;
+    border-top:4px solid #324E5B;
+    border-left: 4px solid #324E5B;
+    font-size:18px;
+}
+
+form .checkboxes-container {
+    background: #ffffff;
+    border-top:4px solid #324E5B;
+    border-left: 4px solid #324E5B;
+}
+
+form .checkboxes-container input[type="checkbox"] {
+    display: inline-block;
+}
+
+form .checkboxes-container p {
+    margin:0;
+    padding:10px 0 5px 10px;
+}
+
+form .checkboxes span {
+    background: #EEEEEE;
+}
+
+form label:not(:nth-child(n+5)) > span {
+    margin-bottom:10px;
+}
+
+form label:nth-child(n+4) > input[type="radio"]:last-of-type {
+    margin-left:200px;
+}
+
+form label:last-of-type {
+    margin-top:40px;
+}
+
+form label:last-of-type > span {
+    margin-bottom:10px;
+}
+
+form label:last-of-type > a {
+    color:#136F63;
+}
+
+form div.buttons-container {
+    padding-left:100px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+
+form div.buttons-container button {
+    width:250px;
+    height:40px;
+    border: none;
+    outline:0 none;
+    background: #EEEEEE;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight:700;
+    font-size:16px;
+}
+
+form div.buttons-container button:first-of-type {
+    color:#FF5427;
+    border-right:4px solid #FF5427;
+    border-bottom:4px solid #FF5427;
+}
+
+form div.buttons-container button:last-of-type {
+    color:#136F63;
+    border-right:4px solid #136F63;
+    border-bottom:4px solid #136F63;
+}

@@ -1,0 +1,85 @@
+body {
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: Lato, sans-serif;
+    font-size:20px;
+}
+
+.header {
+    background: url("images/car-future.jpg") no-repeat center center;
+    height: 700px;
+    background-size: cover;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    padding:60px;
+    font-size:3em;
+    margin:0 auto;
+    color:rgb(179,133,117);
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color:rgb(179,133,117);
+    cursor: pointer;
+}
+
+.content section {
+    width:1100px;
+    text-align: justify;
+}
+
+.content section article {
+    margin-left:10px;
+}
+
+.content section article h2 {
+    text-transform: uppercase;
+    color:rgb(179,133,117);
+    font-size:0.7em;
+}
+
+.content section article img {
+    width: 200px;
+}
+
+.content section article p {
+    width: 750px;
+    display: inline-block;
+    font-size:0.59em;
+    position: absolute;
+    margin:10px 5px;
+    padding: 20px 10px;
+}
+
+.content section article p:first-letter {
+    color:rgb(179,133,117);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    margin:10px;
+    font-size:0.7em;
+}
